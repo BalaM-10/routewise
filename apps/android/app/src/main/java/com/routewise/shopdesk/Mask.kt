@@ -155,7 +155,7 @@ object Mask {
 
     /** Placeholders still in the text after restoring, for example one the model invented. */
     fun leftoverTokens(text: String): List<String> =
-        Regex("\\[\\s*(NAME|EMAIL|PHONE|ADDRESS|DETAIL)\\s*\\d+\\s*]", RegexOption.IGNORE_CASE).findAll(text).map { it.value }.toList()
+        Regex("\\[\\s*[A-Z]+\\s*\\d+\\s*]", RegexOption.IGNORE_CASE).findAll(text).map { it.value }.toList()
 
     fun leaked(text: String, values: List<String>): List<String> = values.filter { text.contains(it, ignoreCase = true) }
 

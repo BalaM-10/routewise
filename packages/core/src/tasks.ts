@@ -81,7 +81,9 @@ export interface Voice {
 /** What the cloud receives for a reply: the masked ticket, the order facts and the shop's voice. */
 export function composeReplyInput(maskedTicket: string, facts: string[] = [], voice?: Voice): string {
   const parts = [maskedTicket];
-  if (facts.length) parts.push(`ORDER FACTS (from the shop's order system):\n${facts.map((f) => `- ${f}`).join('\n')}`);
+  parts.push(facts.length
+    ? `ORDER FACTS (from the shop's order system):\n${facts.map((f) => `- ${f}`).join('\n')}`
+    : "ORDER FACTS: none found in the shop's order system.");
   if (voice) {
     const tone = voice.tone === 'formal' ? 'formal and courteous' : voice.tone === 'brief' ? 'brief and to the point' : 'warm and friendly';
     parts.push(`SHOP VOICE: write for ${voice.shop}, in a ${tone} tone, and sign off as "${voice.signOff}".`);
@@ -162,7 +164,7 @@ export const defaultTasks: Task[] = [
     id: 'reply',
     name: 'Draft a reply',
     instruction:
-      'Write a short, friendly reply from the support agent to this ticket (at most 120 words). Personal details are replaced by placeholders such as [NAME 1]; keep any placeholder you use exactly as written. If order facts are given, rely only on them for status, dates and refunds, and promise nothing beyond them: keep their conditions and wording (if they say eligible for a refund by a date, say exactly that, not a full or guaranteed refund). Reply with the message only.',
+      'Write a short, friendly reply from the support agent to this ticket (at most 120 words). Personal details are replaced by placeholders such as [NAME 1]; keep any placeholder you use exactly as written and never make up a new one. If order facts are given, rely only on them for status, dates and refunds, and promise nothing beyond them: keep their conditions and wording (if they say eligible for a refund by a date, say exactly that, not a full or guaranteed refund). If no order facts are given, do not say that anything has been done, sent, refunded or scheduled, and give no dates: say the team will look into it and get back to them. Reply with the message only.',
     inputs: tickets.slice(0, 24).map(replyInput),
     validator: { kind: 'text', maxWords: 150 },
     scoring: 'judge',

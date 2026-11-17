@@ -170,7 +170,7 @@ export function unmask(text: string, map: Record<string, string>): string {
 
 /** Placeholders still in the text after restoring, for example one the model invented. */
 export function leftoverTokens(text: string): string[] {
-  return text.match(/\[\s*(NAME|EMAIL|PHONE|ADDRESS|DETAIL)\s*\d+\s*\]/gi) ?? [];
+  return text.match(/\[\s*[A-Z]+\s*\d+\s*\]/gi) ?? [];
 }
 
 /** Which of the given details still appear in the text. */

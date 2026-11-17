@@ -127,7 +127,8 @@ object Data {
     /** What the cloud receives for a reply: the masked ticket, the order facts and the shop's voice. */
     fun composeReplyInput(maskedTicket: String, facts: List<String>, voice: Voice?): String {
         val parts = mutableListOf(maskedTicket)
-        if (facts.isNotEmpty()) parts += "ORDER FACTS (from the shop's order system):\n" + facts.joinToString("\n") { "- $it" }
+        parts += if (facts.isNotEmpty()) "ORDER FACTS (from the shop's order system):\n" + facts.joinToString("\n") { "- $it" }
+            else "ORDER FACTS: none found in the shop's order system."
         if (voice != null) {
             val tone = when (voice.tone) { "formal" -> "formal and courteous"; "brief" -> "brief and to the point"; else -> "warm and friendly" }
             parts += "SHOP VOICE: write for ${voice.shop}, in a $tone tone, and sign off as \"${voice.signOff}\"."

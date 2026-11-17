@@ -182,6 +182,7 @@ describe('masking', () => {
     const map = { '[NAME 1]': 'Priya Nair' };
     expect(unmask('Hi [name 1] and [ NAME 1 ], see [NAME 2]', map)).toBe('Hi Priya and Priya Nair, see [NAME 2]');
     expect(leftoverTokens('Hi Priya, see [NAME 2]')).toEqual(['[NAME 2]']);
+    expect(leftoverTokens('A refund by [DATE 1] is possible')).toEqual(['[DATE 1]']);
   });
   it('replaces longer details before shorter ones', () => {
     const m = mask('Marcus Bell wrote; Marcus says hi', [{ type: 'name', value: 'Marcus' }, { type: 'name', value: 'Marcus Bell' }]);
