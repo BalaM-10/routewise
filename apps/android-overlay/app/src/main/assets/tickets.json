@@ -1,0 +1,471 @@
+[
+ {
+  "text": "Hello, this is Marcus Bell. My order #B2210 for the walnut desk organizer was supposed to arrive last Thursday but tracking hasn't updated in six days. I'm at 4120 Elm Ridge Dr, Plano TX. Email marcus.bell@example.com.",
+  "category": "shipping",
+  "orderId": "B2210",
+  "product": "walnut desk organizer",
+  "pii": [
+   "Marcus Bell",
+   "4120 Elm Ridge Dr",
+   "marcus.bell@example.com"
+  ]
+ },
+ {
+  "text": "Hi, Priya Nair here. I returned the linen throw blanket from order #A1043 two weeks ago and still haven't got my money back. Please refund it to my card. Phone 214-555-0147.",
+  "category": "refund",
+  "orderId": "A1043",
+  "product": "linen throw blanket",
+  "pii": [
+   "Priya Nair",
+   "214-555-0147"
+  ]
+ },
+ {
+  "text": "The ceramic pour-over kettle I bought (order #C3307) leaks from the base after a few uses. Is this a known defect? Tomás Rivera, tomas.rivera@example.com",
+  "category": "product",
+  "orderId": "C3307",
+  "product": "ceramic pour-over kettle",
+  "pii": [
+   "Tomás Rivera",
+   "tomas.rivera@example.com"
+  ]
+ },
+ {
+  "text": "I can't log in to my account. The password reset email never arrives at jen.okafor@example.com. My name is Jennifer Okafor.",
+  "category": "account",
+  "orderId": null,
+  "product": null,
+  "pii": [
+   "Jennifer Okafor",
+   "jen.okafor@example.com"
+  ]
+ },
+ {
+  "text": "Order #D4410 (two bamboo cutting boards) shows delivered but nothing is at my door at 88 Lakeview Ct, Frisco TX. Can you check with the courier? Thanks, Sam Whitaker, 469-555-0192.",
+  "category": "shipping",
+  "orderId": "D4410",
+  "product": "bamboo cutting boards",
+  "pii": [
+   "Sam Whitaker",
+   "88 Lakeview Ct",
+   "469-555-0192"
+  ]
+ },
+ {
+  "text": "I was charged twice for order #E5521, the brass desk lamp. Please refund the duplicate charge. Aisha Khan, aisha.khan@example.com",
+  "category": "refund",
+  "orderId": "E5521",
+  "product": "brass desk lamp",
+  "pii": [
+   "Aisha Khan",
+   "aisha.khan@example.com"
+  ]
+ },
+ {
+  "text": "Does the cast iron skillet from order #F6630 need seasoning before first use? The leaflet in the box is missing. Thanks, Daniel Cho",
+  "category": "product",
+  "orderId": "F6630",
+  "product": "cast iron skillet",
+  "pii": [
+   "Daniel Cho"
+  ]
+ },
+ {
+  "text": "Please update the email on my account from lena.fischer@example.com to lena.f@example.com and change my shipping address to 12 Birch Lane, McKinney TX. Lena Fischer",
+  "category": "account",
+  "orderId": null,
+  "product": null,
+  "pii": [
+   "lena.fischer@example.com",
+   "lena.f@example.com",
+   "12 Birch Lane",
+   "Lena Fischer"
+  ]
+ },
+ {
+  "text": "Hi, my parcel for order #G7741 (the wool picnic blanket) was sent to my old address. Can it be redirected to 501 Maple Ave, Allen TX before it ships? Rosa Delgado, 972-555-0133",
+  "category": "shipping",
+  "orderId": "G7741",
+  "product": "wool picnic blanket",
+  "pii": [
+   "Rosa Delgado",
+   "501 Maple Ave",
+   "972-555-0133"
+  ]
+ },
+ {
+  "text": "The stoneware mug set from order #H8852 arrived with two cracked mugs. I would like my money back for the whole set please. Kevin Moore, kevin.moore@example.com",
+  "category": "refund",
+  "orderId": "H8852",
+  "product": "stoneware mug set",
+  "pii": [
+   "Kevin Moore",
+   "kevin.moore@example.com"
+  ]
+ },
+ {
+  "text": "Is the linen apron from order #J9963 machine washable, and will it shrink? I could not find care instructions on the label. Thanks, Mei Tanaka",
+  "category": "product",
+  "orderId": "J9963",
+  "product": "linen apron",
+  "pii": [
+   "Mei Tanaka"
+  ]
+ },
+ {
+  "text": "Someone changed the password on my account without me asking. Please lock it and send a reset link to omar.haddad@example.com. My phone is 214-555-0188. Omar Haddad",
+  "category": "account",
+  "orderId": null,
+  "product": null,
+  "pii": [
+   "Omar Haddad",
+   "omar.haddad@example.com",
+   "214-555-0188"
+  ]
+ },
+ {
+  "text": "Tracking for order #K1074, the oak serving board, says it is stuck in customs for a week. When will it reach 7 Harbor View, Frisco TX? Grace Liu",
+  "category": "shipping",
+  "orderId": "K1074",
+  "product": "oak serving board",
+  "pii": [
+   "Grace Liu",
+   "7 Harbor View"
+  ]
+ },
+ {
+  "text": "I cancelled order #L2185 for the copper watering can within an hour but I was still charged. Please refund it. Ben Adler, ben.adler@example.com, 469-555-0121",
+  "category": "refund",
+  "orderId": "L2185",
+  "product": "copper watering can",
+  "pii": [
+   "Ben Adler",
+   "ben.adler@example.com",
+   "469-555-0121"
+  ]
+ },
+ {
+  "text": "The rechargeable reading lamp from order #M3296 only holds a charge for twenty minutes. Is that normal or is it faulty? Fatima Zahra",
+  "category": "product",
+  "orderId": "M3296",
+  "product": "rechargeable reading lamp",
+  "pii": [
+   "Fatima Zahra"
+  ]
+ },
+ {
+  "text": "Please delete my account and all my saved addresses, including 33 Cedar Point, Plano TX. My login email is noah.berg@example.com. Noah Berg",
+  "category": "account",
+  "orderId": null,
+  "product": null,
+  "pii": [
+   "Noah Berg",
+   "33 Cedar Point",
+   "noah.berg@example.com"
+  ]
+ },
+ {
+  "text": "hey so i ordered the teak salad bowl (#P4417) like 3 weeks ago and still nothin. tracking says label created?? pls help. - jordan m",
+  "category": "shipping",
+  "orderId": "P4417",
+  "product": "teak salad bowl",
+  "pii": [
+   "jordan m"
+  ]
+ },
+ {
+  "text": "Do you sell gift cards? I'd like to buy one for my sister's birthday. Thanks! Hannah Price",
+  "category": "other",
+  "orderId": null,
+  "product": null,
+  "pii": [
+   "Hannah Price"
+  ]
+ },
+ {
+  "text": "Just wanted to say the linen napkins are gorgeous, my guests loved them. Keep it up! - Beatriz Souza",
+  "category": "other",
+  "orderId": null,
+  "product": "linen napkins",
+  "pii": [
+   "Beatriz Souza"
+  ]
+ },
+ {
+  "text": "We run a café in Austin and want to order 40 of your stoneware mugs for wholesale. Who should I talk to? Call me at (512) 555-0176. Theo Grant, Grant & Co.",
+  "category": "other",
+  "orderId": null,
+  "product": "stoneware mugs",
+  "pii": [
+   "Theo Grant",
+   "(512) 555-0176"
+  ]
+ },
+ {
+  "text": "The handle on my enamel stock pot came loose after two weeks (order H-2291?? not sure of the exact number). Is that covered by warranty? Ingrid Olsen, 1902 Willow Bend, Prosper TX",
+  "category": "product",
+  "orderId": "H-2291",
+  "product": "enamel stock pot",
+  "pii": [
+   "Ingrid Olsen",
+   "1902 Willow Bend"
+  ]
+ },
+ {
+  "text": "I returned order #R5530 (the jute rug) on the 2nd. UPS says you received it on the 6th. Where's my refund?? It's been 10 days. raj.patel@example.com",
+  "category": "refund",
+  "orderId": "R5530",
+  "product": "jute rug",
+  "pii": [
+   "raj.patel@example.com"
+  ]
+ },
+ {
+  "text": "Hi there, my card was charged $64.20 but my order confirmation says $58.00. Order #T6641, the beeswax candle set. Can you fix this? Chloe Martin",
+  "category": "refund",
+  "orderId": "T6641",
+  "product": "beeswax candle set",
+  "pii": [
+   "Chloe Martin"
+  ]
+ },
+ {
+  "text": "i cant change my delivery address in my account settings, it keeps giving an error. the new one is 77 Cypress Ln, Little Elm TX 75068. thx, Diego",
+  "category": "account",
+  "orderId": null,
+  "product": null,
+  "pii": [
+   "Diego",
+   "77 Cypress Ln"
+  ]
+ },
+ {
+  "text": "My package for order #V7752 was left at the wrong house, 418 Oak St instead of 481 Oak St. Neighbour has it but won't answer the door. What now? Mia Wong 214-555-0163",
+  "category": "shipping",
+  "orderId": "V7752",
+  "product": null,
+  "pii": [
+   "Mia Wong",
+   "418 Oak St",
+   "481 Oak St",
+   "214-555-0163"
+  ]
+ },
+ {
+  "text": "The ceramic planter (order W8863) arrived in pieces. I don't want a replacement, just my money back please. Photos attached. Liam O'Connor, liam.oconnor@example.com",
+  "category": "refund",
+  "orderId": "W8863",
+  "product": "ceramic planter",
+  "pii": [
+   "Liam O'Connor",
+   "liam.oconnor@example.com"
+  ]
+ },
+ {
+  "text": "Is your bamboo cutting board dishwasher safe? Thinking of buying two. Thanks, Arjun",
+  "category": "product",
+  "orderId": null,
+  "product": "bamboo cutting board",
+  "pii": [
+   "Arjun"
+  ]
+ },
+ {
+  "text": "Reset password link expired twice now. Using arjun.k@example.com. Very frustrating.",
+  "category": "account",
+  "orderId": null,
+  "product": null,
+  "pii": [
+   "arjun.k@example.com"
+  ]
+ },
+ {
+  "text": "Please unsubscribe me from your marketing emails, I get three a week. sophie.b@example.com",
+  "category": "account",
+  "orderId": null,
+  "product": null,
+  "pii": [
+   "sophie.b@example.com"
+  ]
+ },
+ {
+  "text": "Ordered 2 things on the same order #X9974: walnut coasters and a brass bookend. Coasters came, bookend didn't. Ella Fischer",
+  "category": "shipping",
+  "orderId": "X9974",
+  "product": "brass bookend",
+  "pii": [
+   "Ella Fischer"
+  ]
+ },
+ {
+  "text": "where is my order. it's been forever. Pat",
+  "category": "shipping",
+  "orderId": null,
+  "product": null,
+  "pii": [
+   "Pat"
+  ]
+ },
+ {
+  "text": "Your website charged me twice for order #Y1085 when it froze at checkout. It was one wool throw. Please refund the extra charge. Nora Kim, 469.555.0139",
+  "category": "refund",
+  "orderId": "Y1085",
+  "product": "wool throw",
+  "pii": [
+   "Nora Kim",
+   "469.555.0139"
+  ]
+ },
+ {
+  "text": "Bonjour! Do you ship to Canada? I'm in Montréal. Merci, Élodie Tremblay",
+  "category": "shipping",
+  "orderId": null,
+  "product": null,
+  "pii": [
+   "Élodie Tremblay"
+  ]
+ },
+ {
+  "text": "The lavender soap set smells nothing like the description, more like plastic. Disappointed. Order #Z2196. Grace",
+  "category": "product",
+  "orderId": "Z2196",
+  "product": "lavender soap set",
+  "pii": [
+   "Grace"
+  ]
+ },
+ {
+  "text": "Hi, I'm writing on behalf of my mother, Margaret Ellis, who ordered the cast iron dutch oven (#A3207). She's 82 and can't lift the parcel at the pickup point; can it be delivered to her door at 5 Rosewood Ct, Celina TX? My number is 945-555-0102. Thanks, David Ellis",
+  "category": "shipping",
+  "orderId": "A3207",
+  "product": "cast iron dutch oven",
+  "pii": [
+   "Margaret Ellis",
+   "5 Rosewood Ct",
+   "945-555-0102",
+   "David Ellis"
+  ]
+ },
+ {
+  "text": "My account shows an order I never placed (#C5429). Did someone get into my account?? Please check. Femi Adeyemi, femi.adeyemi@example.com",
+  "category": "account",
+  "orderId": "C5429",
+  "product": null,
+  "pii": [
+   "Femi Adeyemi",
+   "femi.adeyemi@example.com"
+  ]
+ },
+ {
+  "text": "test",
+  "category": "other",
+  "orderId": null,
+  "product": null,
+  "pii": []
+ },
+ {
+  "text": "I'm a journalist with Home & Table magazine writing about small homeware brands. Could the founder do a 15 min call next week? Rachel Stein, rachel.stein@example.com",
+  "category": "other",
+  "orderId": null,
+  "product": null,
+  "pii": [
+   "Rachel Stein",
+   "rachel.stein@example.com"
+  ]
+ },
+ {
+  "text": "The glass carafe I got (order #D6530) has a tiny chip on the rim. Not a huge deal, can you just send a new lid or a discount code? Tom",
+  "category": "product",
+  "orderId": "D6530",
+  "product": "glass carafe",
+  "pii": [
+   "Tom"
+  ]
+ },
+ {
+  "text": "Hi! Tracking for #E7641 says delivered yesterday at 2:14pm but I was home all day and nobody came. 2210 Meadow Glen Dr, McKinney. Lucy Bell",
+  "category": "shipping",
+  "orderId": "E7641",
+  "product": null,
+  "pii": [
+   "Lucy Bell",
+   "2210 Meadow Glen Dr"
+  ]
+ },
+ {
+  "text": "I want to return the oak shelf (order F8752), it doesn't fit my wall. How do I send it back and when do I get the money? Ahmed Saleh 972-555-0148",
+  "category": "refund",
+  "orderId": "F8752",
+  "product": "oak shelf",
+  "pii": [
+   "Ahmed Saleh",
+   "972-555-0148"
+  ]
+ },
+ {
+  "text": "Two-factor code never arrives by SMS. My phone number on file is +1 214 555 0177. Please help me log in. Yuki Sato",
+  "category": "account",
+  "orderId": null,
+  "product": null,
+  "pii": [
+   "Yuki Sato",
+   "+1 214 555 0177"
+  ]
+ },
+ {
+  "text": "Loved the first mug so I ordered 3 more (#G9863). One of the new ones has a different glaze shade. Is that normal for handmade? Carmen Ruiz",
+  "category": "product",
+  "orderId": "G9863",
+  "product": "mug",
+  "pii": [
+   "Carmen Ruiz"
+  ]
+ },
+ {
+  "text": "Hello, I was overcharged on shipping: paid $24 for standard when the site said $9.99. Order #H1974. Can I get the difference back? Owen Price, owen.price@example.com",
+  "category": "refund",
+  "orderId": "H1974",
+  "product": null,
+  "pii": [
+   "Owen Price",
+   "owen.price@example.com"
+  ]
+ },
+ {
+  "text": "Package from order #J2085 has been sitting at the post office for 5 days, notice says 'insufficient address'. My full address is Apt 4B, 300 Main St, Frisco TX 75034. Ivy Chen",
+  "category": "shipping",
+  "orderId": "J2085",
+  "product": null,
+  "pii": [
+   "Ivy Chen",
+   "300 Main St"
+  ]
+ },
+ {
+  "text": "Do you have the walnut desk organizer back in stock? It's been sold out for weeks. Ben",
+  "category": "product",
+  "orderId": null,
+  "product": "walnut desk organizer",
+  "pii": [
+   "Ben"
+  ]
+ },
+ {
+  "text": "How do I delete the old card saved on my account? I can't see the option anywhere. Sana Mirza",
+  "category": "account",
+  "orderId": null,
+  "product": null,
+  "pii": [
+   "Sana Mirza"
+  ]
+ },
+ {
+  "text": "ORDER #K3196 NEVER ARRIVED AND NOBODY ANSWERS MY EMAILS. THIS IS THE THIRD TIME I'M WRITING. I WANT A REFUND NOW. M. JOHNSON",
+  "category": "refund",
+  "orderId": "K3196",
+  "product": null,
+  "pii": [
+   "M. JOHNSON"
+  ]
+ }
+]

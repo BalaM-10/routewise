@@ -1,0 +1,27 @@
+{
+  "name": "routewise",
+  "version": "0.2.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @routewise/web",
+    "build": "npm run build -w @routewise/web",
+    "test": "npm test -w @routewise/core",
+    "typecheck": "npm run typecheck --workspaces",
+    "deploy": "bash infra/scripts/deploy.sh"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "overrides": {
+    "@grpc/grpc-js": "^1.14.7"
+  },
+  "engines": {
+    "node": ">=22.12"
+  }
+}

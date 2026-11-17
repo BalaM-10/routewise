@@ -1,0 +1,282 @@
+[
+ {
+  "id": "B2210",
+  "product": "walnut desk organizer",
+  "status": "delayed",
+  "placed": "2026-10-28",
+  "total": 48.0,
+  "shipped": "2026-10-30",
+  "carrier": "UPS",
+  "tracking": "1Z84A2210",
+  "note": "Missed onward truck at the regional hub on Nov 3; no scan since.",
+  "refund": "eligible if not delivered by Nov 20"
+ },
+ {
+  "id": "A1043",
+  "product": "linen throw blanket",
+  "status": "returned",
+  "placed": "2026-10-12",
+  "total": 72.0,
+  "returnReceived": "2026-11-02",
+  "refund": "approved Nov 4, $72.00 to the original card; banks take 5 to 10 business days"
+ },
+ {
+  "id": "C3307",
+  "product": "ceramic pour-over kettle",
+  "status": "delivered",
+  "placed": "2026-10-05",
+  "total": 56.0,
+  "delivered": "2026-10-09",
+  "note": "Known issue: a batch from September had a faulty base seal.",
+  "refund": "replacement or refund within the 1-year warranty"
+ },
+ {
+  "id": "D4410",
+  "product": "bamboo cutting boards (2)",
+  "status": "delivered",
+  "placed": "2026-11-01",
+  "total": 64.0,
+  "carrier": "FedEx",
+  "tracking": "7789D4410",
+  "delivered": "2026-11-06",
+  "note": "Courier photo shows the parcel at a side door.",
+  "refund": "eligible after a carrier investigation (up to 5 business days)"
+ },
+ {
+  "id": "E5521",
+  "product": "brass desk lamp",
+  "status": "delivered",
+  "placed": "2026-10-20",
+  "total": 89.0,
+  "note": "Two identical card charges were recorded; one was reversed automatically on Nov 8.",
+  "refund": "duplicate charge already reversed"
+ },
+ {
+  "id": "F6630",
+  "product": "cast iron skillet",
+  "status": "delivered",
+  "placed": "2026-10-25",
+  "total": 42.0,
+  "note": "Comes pre-seasoned; a care guide is online.",
+  "refund": "not needed"
+ },
+ {
+  "id": "G7741",
+  "product": "wool picnic blanket",
+  "status": "processing",
+  "placed": "2026-11-09",
+  "total": 68.0,
+  "note": "Not shipped yet; the address can still be changed until it ships."
+ },
+ {
+  "id": "H8852",
+  "product": "stoneware mug set",
+  "status": "delivered",
+  "placed": "2026-10-30",
+  "total": 54.0,
+  "refund": "full refund eligible for items damaged in transit; photos requested"
+ },
+ {
+  "id": "J9963",
+  "product": "linen apron",
+  "status": "delivered",
+  "placed": "2026-10-18",
+  "total": 32.0,
+  "note": "Machine washable cold; may shrink up to 3% on the first wash."
+ },
+ {
+  "id": "K1074",
+  "product": "oak serving board",
+  "status": "in customs",
+  "placed": "2026-10-22",
+  "total": 46.0,
+  "shipped": "2026-10-24",
+  "carrier": "DHL",
+  "tracking": "DH1074K",
+  "note": "Held for routine customs inspection since Nov 5."
+ },
+ {
+  "id": "L2185",
+  "product": "copper watering can",
+  "status": "cancelled",
+  "placed": "2026-11-02",
+  "total": 39.0,
+  "refund": "approved; $39.00 refund issued Nov 3"
+ },
+ {
+  "id": "M3296",
+  "product": "rechargeable reading lamp",
+  "status": "delivered",
+  "placed": "2026-10-15",
+  "total": 58.0,
+  "note": "Battery should last about 6 hours; 20 minutes indicates a fault.",
+  "refund": "replacement or refund within warranty"
+ },
+ {
+  "id": "P4417",
+  "product": "teak salad bowl",
+  "status": "label created",
+  "placed": "2026-10-21",
+  "total": 44.0,
+  "carrier": "USPS",
+  "tracking": "9400P4417",
+  "note": "Parcel never handed to the carrier; warehouse is checking.",
+  "refund": "eligible"
+ },
+ {
+  "id": "H-2291",
+  "product": "enamel stock pot",
+  "status": "delivered",
+  "placed": "2026-10-11",
+  "total": 79.0,
+  "note": "Order number on file is H2291.",
+  "refund": "warranty covers loose handles for 2 years"
+ },
+ {
+  "id": "R5530",
+  "product": "jute rug",
+  "status": "returned",
+  "placed": "2026-10-01",
+  "total": 120.0,
+  "returnReceived": "2026-11-06",
+  "refund": "pending: return being inspected, refunds go out within 10 business days of receipt"
+ },
+ {
+  "id": "T6641",
+  "product": "beeswax candle set",
+  "status": "delivered",
+  "placed": "2026-11-03",
+  "total": 64.2,
+  "note": "$58.00 items plus $6.20 sales tax; the confirmation email omitted tax.",
+  "refund": "not applicable"
+ },
+ {
+  "id": "V7752",
+  "product": "linen napkins (set of 6)",
+  "status": "delivered",
+  "placed": "2026-11-04",
+  "total": 36.0,
+  "carrier": "UPS",
+  "tracking": "1Z84V7752",
+  "delivered": "2026-11-08",
+  "note": "Delivery photo shows house number 418.",
+  "refund": "eligible after a carrier investigation"
+ },
+ {
+  "id": "W8863",
+  "product": "ceramic planter",
+  "status": "delivered",
+  "placed": "2026-11-02",
+  "total": 52.0,
+  "refund": "full refund eligible for items damaged in transit"
+ },
+ {
+  "id": "X9974",
+  "product": "walnut coasters and brass bookend",
+  "status": "partly shipped",
+  "placed": "2026-10-27",
+  "total": 71.0,
+  "note": "Brass bookend ships separately from a second warehouse on Nov 14."
+ },
+ {
+  "id": "Y1085",
+  "product": "wool throw",
+  "status": "delivered",
+  "placed": "2026-11-05",
+  "total": 95.0,
+  "note": "Card was charged twice; one charge is still pending.",
+  "refund": "eligible for the duplicate charge"
+ },
+ {
+  "id": "Z2196",
+  "product": "lavender soap set",
+  "status": "delivered",
+  "placed": "2026-11-01",
+  "total": 28.0,
+  "refund": "eligible within 30 days"
+ },
+ {
+  "id": "A3207",
+  "product": "cast iron dutch oven",
+  "status": "at pickup point",
+  "placed": "2026-10-29",
+  "total": 110.0,
+  "carrier": "UPS",
+  "note": "Held at a UPS Access Point until Nov 20; redelivery to the door can be requested."
+ },
+ {
+  "id": "C5429",
+  "product": "ceramic vase",
+  "status": "processing",
+  "placed": "2026-11-10",
+  "total": 64.0,
+  "note": "Placed from a new device; shipping address differs from the account's saved address."
+ },
+ {
+  "id": "D6530",
+  "product": "glass carafe",
+  "status": "delivered",
+  "placed": "2026-10-26",
+  "total": 34.0,
+  "note": "Spare lids are in stock.",
+  "refund": "eligible within 30 days"
+ },
+ {
+  "id": "E7641",
+  "product": "oak shelf brackets",
+  "status": "delivered",
+  "placed": "2026-11-10",
+  "total": 26.0,
+  "carrier": "FedEx",
+  "tracking": "7789E7641",
+  "delivered": "2026-11-11",
+  "note": "No delivery photo was taken.",
+  "refund": "eligible after a carrier investigation"
+ },
+ {
+  "id": "F8752",
+  "product": "oak shelf",
+  "status": "delivered",
+  "placed": "2026-10-24",
+  "total": 85.0,
+  "refund": "returns accepted within 30 days in original packaging; refund within 10 business days of receipt"
+ },
+ {
+  "id": "G9863",
+  "product": "handmade mugs (3)",
+  "status": "delivered",
+  "placed": "2026-11-04",
+  "total": 66.0,
+  "note": "Glaze varies by firing; this is normal for handmade pieces."
+ },
+ {
+  "id": "H1974",
+  "product": "linen tea towels",
+  "status": "delivered",
+  "placed": "2026-10-31",
+  "total": 35.0,
+  "note": "Express shipping ($24.00) was selected at checkout.",
+  "refund": "not eligible; the charge matches the selected shipping"
+ },
+ {
+  "id": "J2085",
+  "product": "stoneware dinner plates",
+  "status": "at post office",
+  "placed": "2026-10-30",
+  "total": 88.0,
+  "carrier": "USPS",
+  "tracking": "9400J2085",
+  "note": "Address on the order is missing the apartment number."
+ },
+ {
+  "id": "K3196",
+  "product": "wool blanket",
+  "status": "lost in transit",
+  "placed": "2026-10-14",
+  "total": 99.0,
+  "carrier": "USPS",
+  "tracking": "9400K3196",
+  "note": "Carrier confirmed the parcel lost on Nov 7.",
+  "refund": "eligible in full"
+ }
+]

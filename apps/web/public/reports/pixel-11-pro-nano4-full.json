@@ -1,0 +1,2814 @@
+{
+  "createdAt": "2026-11-15T20:44:52.618834Z",
+  "device": "Google Pixel 11 Pro, Android 17",
+  "onDeviceModel": "PREVIEW",
+  "onDeviceModelName": "Gemini Nano 4 Full",
+  "cloudModel": "gemini-3.5-flash-lite",
+  "tasks": [
+    {
+      "id": "triage",
+      "mode": "ONLY_ON_DEVICE",
+      "good": 54,
+      "n": 54,
+      "lowerBound": 0.9522797621593119,
+      "deviceP50": 1719,
+      "deviceP90": 1951,
+      "cloudP50": 785,
+      "cloudP90": 1227,
+      "reasons": [
+        "54 of 54 phone answers were right (at least 95% with 95% confidence).",
+        "This step reads personal data, so it stays on the phone."
+      ],
+      "trials": [
+        {
+          "ticket": 0,
+          "device": {
+            "text": "shipping",
+            "ms": 1721,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "shipping",
+            "ms": 1832,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 1,
+          "device": {
+            "text": "refund",
+            "ms": 300,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "refund",
+            "ms": 1099,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 2,
+          "device": {
+            "text": "product",
+            "ms": 1700,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "product",
+            "ms": 753,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 3,
+          "device": {
+            "text": "account",
+            "ms": 2087,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "account",
+            "ms": 943,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 4,
+          "device": {
+            "text": "shipping",
+            "ms": 1977,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "shipping",
+            "ms": 913,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 5,
+          "device": {
+            "text": "refund",
+            "ms": 1998,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "refund",
+            "ms": 973,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 6,
+          "device": {
+            "text": "product",
+            "ms": 2039,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "product",
+            "ms": 792,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 7,
+          "device": {
+            "text": "account",
+            "ms": 316,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "account",
+            "ms": 857,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 8,
+          "device": {
+            "text": "shipping",
+            "ms": 1719,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "shipping",
+            "ms": 604,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 9,
+          "device": {
+            "text": "refund",
+            "ms": 1793,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "refund",
+            "ms": 762,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 10,
+          "device": {
+            "text": "product",
+            "ms": 1772,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "product",
+            "ms": 737,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 11,
+          "device": {
+            "text": "account",
+            "ms": 1790,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "account",
+            "ms": 592,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 12,
+          "device": {
+            "text": "shipping",
+            "ms": 1797,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "shipping",
+            "ms": 759,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 13,
+          "device": {
+            "text": "refund",
+            "ms": 1657,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "refund",
+            "ms": 815,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 14,
+          "device": {
+            "text": "product",
+            "ms": 1753,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "product",
+            "ms": 876,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 15,
+          "device": {
+            "text": "account",
+            "ms": 1834,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "account",
+            "ms": 737,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 16,
+          "device": {
+            "text": "shipping",
+            "ms": 1958,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "shipping",
+            "ms": 785,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 17,
+          "device": {
+            "text": "other",
+            "ms": 1911,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "other",
+            "ms": 632,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 18,
+          "device": {
+            "text": "other",
+            "ms": 1951,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "other",
+            "ms": 676,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 19,
+          "device": {
+            "text": "other",
+            "ms": 1810,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "other",
+            "ms": 786,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 20,
+          "device": {
+            "text": "product",
+            "ms": 1692,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "product",
+            "ms": 741,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 21,
+          "device": {
+            "text": "refund",
+            "ms": 1715,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "refund",
+            "ms": 735,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 22,
+          "device": {
+            "text": "refund",
+            "ms": 1723,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "refund",
+            "ms": 1227,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 23,
+          "device": {
+            "text": "account",
+            "ms": 1630,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "account",
+            "ms": 971,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 24,
+          "device": {
+            "text": "shipping",
+            "ms": 1759,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "shipping",
+            "ms": 759,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 25,
+          "device": {
+            "text": "refund",
+            "ms": 1823,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "refund",
+            "ms": 883,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 26,
+          "device": {
+            "text": "product",
+            "ms": 1755,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "product",
+            "ms": 712,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 27,
+          "device": {
+            "text": "account",
+            "ms": 1881,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "account",
+            "ms": 945,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 28,
+          "device": {
+            "text": "account",
+            "ms": 1742,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "account",
+            "ms": 1219,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 29,
+          "device": {
+            "text": "shipping",
+            "ms": 1733,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "shipping",
+            "ms": 729,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 30,
+          "device": {
+            "text": "shipping",
+            "ms": 283,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "",
+            "ms": 9,
+            "onDevice": false,
+            "good": false,
+            "error": "Something unexpected happened."
+          }
+        },
+        {
+          "ticket": 31,
+          "device": {
+            "text": "refund",
+            "ms": 1572,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "refund",
+            "ms": 967,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 32,
+          "device": {
+            "text": "shipping",
+            "ms": 276,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "",
+            "ms": 49,
+            "onDevice": false,
+            "good": false,
+            "error": "Something unexpected happened."
+          }
+        },
+        {
+          "ticket": 33,
+          "device": {
+            "text": "product",
+            "ms": 1836,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "product",
+            "ms": 1553,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 34,
+          "device": {
+            "text": "shipping",
+            "ms": 306,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "shipping",
+            "ms": 772,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 35,
+          "device": {
+            "text": "account",
+            "ms": 1623,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "account",
+            "ms": 721,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 36,
+          "device": {
+            "text": "other",
+            "ms": 1595,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "other",
+            "ms": 677,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 37,
+          "device": {
+            "text": "other",
+            "ms": 1609,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "other",
+            "ms": 827,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 38,
+          "device": {
+            "text": "product",
+            "ms": 1595,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "product",
+            "ms": 1330,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 39,
+          "device": {
+            "text": "shipping",
+            "ms": 1594,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "shipping",
+            "ms": 776,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 40,
+          "device": {
+            "text": "refund",
+            "ms": 325,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "refund",
+            "ms": 838,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 41,
+          "device": {
+            "text": "account",
+            "ms": 1598,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "account",
+            "ms": 829,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 42,
+          "device": {
+            "text": "product",
+            "ms": 1731,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "product",
+            "ms": 815,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 43,
+          "device": {
+            "text": "refund",
+            "ms": 1674,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "refund",
+            "ms": 911,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 44,
+          "device": {
+            "text": "shipping",
+            "ms": 1544,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "shipping",
+            "ms": 592,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 45,
+          "device": {
+            "text": "product",
+            "ms": 1867,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "product",
+            "ms": 729,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 46,
+          "device": {
+            "text": "account",
+            "ms": 1804,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "account",
+            "ms": 742,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 47,
+          "device": {
+            "text": "refund",
+            "ms": 1705,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "refund",
+            "ms": 543,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 48,
+          "device": {
+            "text": "product",
+            "ms": 1756,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "product",
+            "ms": 742,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 49,
+          "device": {
+            "text": "shipping",
+            "ms": 1586,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "shipping",
+            "ms": 670,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 50,
+          "device": {
+            "text": "refund",
+            "ms": 1662,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "refund",
+            "ms": 728,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 51,
+          "device": {
+            "text": "shipping",
+            "ms": 1619,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "shipping",
+            "ms": 1308,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 52,
+          "device": {
+            "text": "account",
+            "ms": 1619,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "account",
+            "ms": 857,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 53,
+          "device": {
+            "text": "shipping",
+            "ms": 313,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "shipping",
+            "ms": 1232,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "extract",
+      "mode": "ONLY_ON_DEVICE",
+      "good": 53,
+      "n": 54,
+      "lowerBound": 0.9211519102005356,
+      "deviceP50": 2025,
+      "deviceP90": 2259,
+      "cloudP50": 890,
+      "cloudP90": 1199,
+      "reasons": [
+        "53 of 54 phone answers were right (at least 92% with 95% confidence).",
+        "This step reads personal data, so it stays on the phone."
+      ],
+      "trials": [
+        {
+          "ticket": 0,
+          "device": {
+            "text": "{\"order_id\": \"B2210\", \"product\": \"walnut desk organizer\", \"issue\": \"tracking hasn't updated in six days\"}",
+            "ms": 2227,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"B2210\", \"product\": \"walnut desk organizer\", \"issue\": \"tracking hasn't updated in six days and package is delayed\"}",
+            "ms": 676,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 1,
+          "device": {
+            "text": "{\"order_id\": \"A1043\", \"product\": \"linen throw blanket\", \"issue\": \"Refund not received after return\"}",
+            "ms": 802,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"A1043\", \"product\": \"linen throw blanket\", \"issue\": \"Refund not received two weeks after returning the product.\"}",
+            "ms": 844,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 2,
+          "device": {
+            "text": "{\"order_id\": \"C3307\", \"product\": \"ceramic pour-over kettle\", \"issue\": \"leaks from the base after a few uses\"}",
+            "ms": 2098,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"C3307\", \"product\": \"ceramic pour-over kettle\", \"issue\": \"leaks from the base\"}",
+            "ms": 747,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 3,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Password reset email not arriving\"}",
+            "ms": 607,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Cannot log in and password reset email not arriving\"}",
+            "ms": 933,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 4,
+          "device": {
+            "text": "{\"order_id\": \"D4410\", \"product\": \"bamboo cutting boards\", \"issue\": \"Order shows delivered but not received\"}",
+            "ms": 2425,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"D4410\", \"product\": \"two bamboo cutting boards\", \"issue\": \"Package marked as delivered but not received\"}",
+            "ms": 1027,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 5,
+          "device": {
+            "text": "{\"order_id\": \"E5521\", \"product\": \"brass desk lamp\", \"issue\": \"charged twice\"}",
+            "ms": 660,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"E5521\", \"product\": \"brass desk lamp\", \"issue\": \"charged twice \/ duplicate charge\"}",
+            "ms": 786,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 6,
+          "device": {
+            "text": "{\"order_id\": \"F6630\", \"product\": \"cast iron skillet\", \"issue\": \"leaflet in the box is missing\"}",
+            "ms": 2104,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"F6630\", \"product\": \"cast iron skillet\", \"issue\": \"Missing leaflet in the box, asking if seasoning is needed before first use.\"}",
+            "ms": 645,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 7,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Update email and shipping address\"}",
+            "ms": 674,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Needs to update account email and shipping address.\"}",
+            "ms": 948,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 8,
+          "device": {
+            "text": "{\"order_id\": \"G7741\", \"product\": \"wool picnic blanket\", \"issue\": \"Parcel sent to old address and needs redirection\"}",
+            "ms": 2211,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"order_id\": \"G7741\",\n  \"product\": \"wool picnic blanket\",\n  \"issue\": \"Parcel sent to old address; needs redirection to 501 Maple Ave, Allen TX before shipping.\"\n}",
+            "ms": 868,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 9,
+          "device": {
+            "text": "{\"order_id\": \"H8852\", \"product\": \"stoneware mug set\", \"issue\": \"two cracked mugs\"}",
+            "ms": 731,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"H8852\", \"product\": \"stoneware mug set\", \"issue\": \"arrived with two cracked mugs, requesting a refund\"}",
+            "ms": 736,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 10,
+          "device": {
+            "text": "{\"order_id\": \"J9963\", \"product\": \"linen apron\", \"issue\": \"Could not find care instructions on the label\"}",
+            "ms": 2153,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "```json\n{\"order_id\": \"J9963\", \"product\": \"linen apron\", \"issue\": \"Missing care instructions on the label; wants to know if it is machine washable and will shrink.\"}\n```",
+            "ms": 890,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 11,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Someone changed the password on my account without me asking. Please lock it and send a reset link to omar.haddad@example.com.\"}",
+            "ms": 2661,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Unauthorized password change; needs account locked and a password reset link sent.\"}",
+            "ms": 759,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 12,
+          "device": {
+            "text": "{\"order_id\": \"K1074\", \"product\": \"oak serving board\", \"issue\": \"stuck in customs\"}",
+            "ms": 747,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"K1074\", \"product\": \"oak serving board\", \"issue\": \"stuck in customs for a week\"}",
+            "ms": 854,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 13,
+          "device": {
+            "text": "{\"order_id\": \"L2185\", \"product\": \"copper watering can\", \"issue\": \"Charged after cancellation\"}",
+            "ms": 2259,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"L2185\", \"product\": \"copper watering can\", \"issue\": \"charged after cancellation\"}",
+            "ms": 775,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 14,
+          "device": {
+            "text": "{\"order_id\": \"M3296\", \"product\": \"rechargeable reading lamp\", \"issue\": \"only holds a charge for twenty minutes\"}",
+            "ms": 799,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "```json\n{\"order_id\": \"M3296\", \"product\": \"rechargeable reading lamp\", \"issue\": \"only holds a charge for twenty minutes\"}\n```",
+            "ms": 988,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 15,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Delete account and saved addresses\"}",
+            "ms": 2013,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Account deletion and removal of saved addresses\"}",
+            "ms": 907,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 16,
+          "device": {
+            "text": "{\"order_id\": \"P4417\", \"product\": \"teak salad bowl\", \"issue\": \"Order not received, tracking shows label created\"}",
+            "ms": 1016,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"order_id\": \"P4417\",\n  \"product\": \"teak salad bowl\",\n  \"issue\": \"Item not received, tracking shows only label created after 3 weeks.\"\n}",
+            "ms": 1016,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 17,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Inquiry about purchasing gift cards\"}",
+            "ms": 2040,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "```json\n{\"order_id\": \"\", \"product\": \"gift card\", \"issue\": \"Inquiring about purchasing a gift card.\"}\n```",
+            "ms": 1029,
+            "onDevice": false,
+            "good": false,
+            "error": null
+          }
+        },
+        {
+          "ticket": 18,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"linen napkins\", \"issue\": \"\"}",
+            "ms": 2207,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"\", \"product\": \"linen napkins\", \"issue\": \"\"}",
+            "ms": 989,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 19,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"stoneware mugs\", \"issue\": \"Inquiry about wholesale order\"}",
+            "ms": 793,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"order_id\": \"\",\n  \"product\": \"stoneware mugs\",\n  \"issue\": \"Wants to place a wholesale order for 40 mugs and is asking who to contact.\"\n}",
+            "ms": 680,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 20,
+          "device": {
+            "text": "{\"order_id\": \"2291\", \"product\": \"enamel stock pot\", \"issue\": \"handle came loose\"}",
+            "ms": 2095,
+            "onDevice": true,
+            "good": false,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"H-2291\", \"product\": \"enamel stock pot\", \"issue\": \"The handle came loose after two weeks.\"}",
+            "ms": 976,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 21,
+          "device": {
+            "text": "{\"order_id\": \"R5530\", \"product\": \"jute rug\", \"issue\": \"Where's my refund? It's been 10 days.\"}",
+            "ms": 2441,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"R5530\", \"product\": \"jute rug\", \"issue\": \"Missing refund after return was delivered\"}",
+            "ms": 1451,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 22,
+          "device": {
+            "text": "{\"order_id\": \"T6641\", \"product\": \"beeswax candle set\", \"issue\": \"Incorrect charge amount\"}",
+            "ms": 2282,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"T6641\", \"product\": \"beeswax candle set\", \"issue\": \"Overcharged: card was charged $64.20 instead of the confirmed $58.00.\"}",
+            "ms": 833,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 23,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Cannot change delivery address in account settings\"}",
+            "ms": 594,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Unable to change delivery address in account settings due to an error.\"}",
+            "ms": 881,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 24,
+          "device": {
+            "text": "{\"order_id\": \"V7752\", \"product\": \"\", \"issue\": \"Package left at the wrong house\"}",
+            "ms": 2113,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"V7752\", \"product\": \"\", \"issue\": \"Package delivered to wrong address; neighbor has it but won't answer the door.\"}",
+            "ms": 1199,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 25,
+          "device": {
+            "text": "{\"order_id\": \"W8863\", \"product\": \"ceramic planter\", \"issue\": \"arrived in pieces\"}",
+            "ms": 2143,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"order_id\": \"W8863\",\n  \"product\": \"ceramic planter\",\n  \"issue\": \"Arrived broken\/in pieces, customer wants a refund\"\n}",
+            "ms": 1067,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 26,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"bamboo cutting board\", \"issue\": \"Is it dishwasher safe?\"}",
+            "ms": 665,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "```json\n{\"order_id\": \"\", \"product\": \"bamboo cutting board\", \"issue\": \"Inquiring if the product is dishwasher safe before purchasing\"}\n```",
+            "ms": 922,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 27,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Reset password link expired twice now.\"}",
+            "ms": 2005,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"\", \"product\": \"password reset link\", \"issue\": \"The password reset link expired twice.\"}",
+            "ms": 834,
+            "onDevice": false,
+            "good": false,
+            "error": null
+          }
+        },
+        {
+          "ticket": 28,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Please unsubscribe me from your marketing emails, I get three a week.\"}",
+            "ms": 853,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "```json\n{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Unsubscribe from marketing emails\"}\n```",
+            "ms": 684,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 29,
+          "device": {
+            "text": "{\"order_id\": \"X9974\", \"product\": \"brass bookend\", \"issue\": \"Bookend did not arrive\"}",
+            "ms": 2205,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"order_id\": \"X9974\",\n  \"product\": \"brass bookend\",\n  \"issue\": \"Bookend was missing from the order.\"\n}",
+            "ms": 905,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 30,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"where is my order. it's been forever.\"}",
+            "ms": 2176,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Order has not arrived after a long time\"}",
+            "ms": 822,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 31,
+          "device": {
+            "text": "{\"order_id\": \"Y1085\", \"product\": \"wool throw\", \"issue\": \"Charged twice at checkout\"}",
+            "ms": 683,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"Y1085\", \"product\": \"wool throw\", \"issue\": \"charged twice when checkout froze\"}",
+            "ms": 787,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 32,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Inquiry about shipping to Canada\"}",
+            "ms": 2027,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Customer is asking if the company ships to Canada (Montréal).\"}",
+            "ms": 1096,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 33,
+          "device": {
+            "text": "{\"order_id\": \"Z2196\", \"product\": \"lavender soap set\", \"issue\": \"smells like plastic\"}",
+            "ms": 2232,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"Z2196\", \"product\": \"lavender soap set\", \"issue\": \"smells like plastic instead of the description\"}",
+            "ms": 810,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 34,
+          "device": {
+            "text": "{\"order_id\": \"A3207\", \"product\": \"cast iron dutch oven\", \"issue\": \"Customer is unable to lift the parcel at the pickup point and needs home delivery.\"}",
+            "ms": 1107,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"A3207\", \"product\": \"cast iron dutch oven\", \"issue\": \"Customer is unable to lift the parcel at the pickup point and requests home delivery.\"}",
+            "ms": 1011,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 35,
+          "device": {
+            "text": "{\"order_id\": \"C5429\", \"product\": \"\", \"issue\": \"Order not placed\"}",
+            "ms": 2102,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "```json\n{\"order_id\": \"C5429\", \"product\": \"\", \"issue\": \"Unauthorized order placed on account\"}\n```",
+            "ms": 1169,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 36,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"\"}",
+            "ms": 1967,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"\"}",
+            "ms": 888,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 37,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"\"}",
+            "ms": 459,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"\"}",
+            "ms": 725,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 38,
+          "device": {
+            "text": "{\"order_id\": \"D6530\", \"product\": \"glass carafe\", \"issue\": \"tiny chip on the rim\"}",
+            "ms": 2114,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"D6530\", \"product\": \"glass carafe\", \"issue\": \"tiny chip on the rim\"}",
+            "ms": 901,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 39,
+          "device": {
+            "text": "{\"order_id\": \"E7641\", \"product\": \"\", \"issue\": \"Tracking says delivered but package was not received\"}",
+            "ms": 2431,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"order_id\": \"E7641\",\n  \"product\": \"\",\n  \"issue\": \"Package marked as delivered but was not received\"\n}",
+            "ms": 768,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 40,
+          "device": {
+            "text": "{\"order_id\": \"F8752\", \"product\": \"oak shelf\", \"issue\": \"doesn't fit my wall\"}",
+            "ms": 728,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"F8752\", \"product\": \"oak shelf\", \"issue\": \"does not fit wall, wants to return for a refund\"}",
+            "ms": 735,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 41,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Two-factor code never arrives by SMS.\"}",
+            "ms": 1881,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "```json\n{\"order_id\": \"\", \"product\": \"Two-factor authentication\", \"issue\": \"Two-factor code never arrives by SMS, preventing login.\"}\n```",
+            "ms": 879,
+            "onDevice": false,
+            "good": false,
+            "error": null
+          }
+        },
+        {
+          "ticket": 42,
+          "device": {
+            "text": "{\"order_id\": \"G9863\", \"product\": \"mug\", \"issue\": \"One of the new ones has a different glaze shade.\"}",
+            "ms": 2123,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"G9863\", \"product\": \"mug\", \"issue\": \"One of the new mugs has a different glaze shade\"}",
+            "ms": 1353,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 43,
+          "device": {
+            "text": "{\"order_id\": \"H1974\", \"product\": \"\", \"issue\": \"Overcharged on shipping\"}",
+            "ms": 2025,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"H1974\", \"product\": \"\", \"issue\": \"Overcharged for shipping\"}",
+            "ms": 971,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 44,
+          "device": {
+            "text": "{\"order_id\": \"J2085\", \"product\": \"\", \"issue\": \"Package stuck at post office due to insufficient address\"}",
+            "ms": 871,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"order_id\": \"J2085\",\n  \"product\": \"\",\n  \"issue\": \"Package sitting at post office with 'insufficient address' notice\"\n}",
+            "ms": 1696,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 45,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"walnut desk organizer\", \"issue\": \"out of stock\"}",
+            "ms": 1903,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "```json\n{\"order_id\": \"\", \"product\": \"walnut desk organizer\", \"issue\": \"Product is sold out and user is asking about stock availability\"}\n```",
+            "ms": 1144,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 46,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"How do I delete the old card saved on my account? I can't see the option anywhere.\"}",
+            "ms": 906,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "```json\n{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Unable to find the option to delete a saved credit card on the account.\"}\n```",
+            "ms": 697,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 47,
+          "device": {
+            "text": "{\"order_id\": \"K3196\", \"product\": \"\", \"issue\": \"Order never arrived and no response to emails\"}",
+            "ms": 2149,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"K3196\", \"product\": \"\", \"issue\": \"Order never arrived, no response to emails, and customer is requesting a refund.\"}",
+            "ms": 1093,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 48,
+          "device": {
+            "text": "{\"order_id\": \"P4471\", \"product\": \"ceramic planter\", \"issue\": \"arrived with a crack down one side\"}",
+            "ms": 2172,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"P4471\", \"product\": \"ceramic planter\", \"issue\": \"arrived with a crack down one side\"}",
+            "ms": 1170,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 49,
+          "device": {
+            "text": "{\"order_id\": \"Q5820\", \"product\": \"oak serving board\", \"issue\": \"Delayed delivery\"}",
+            "ms": 754,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"Q5820\", \"product\": \"oak serving board\", \"issue\": \"The order hasn't arrived after three weeks.\"}",
+            "ms": 671,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 50,
+          "device": {
+            "text": "{\"order_id\": \"R6614\", \"product\": \"wool throw\", \"issue\": \"wrong colour\"}",
+            "ms": 1990,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"order_id\": \"R6614\",\n  \"product\": \"wool throw\",\n  \"issue\": \"Wrong colour received, returned last week, requesting a refund\"\n}",
+            "ms": 1349,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 51,
+          "device": {
+            "text": "{\"order_id\": \"S7302\", \"product\": \"\", \"issue\": \"Update delivery address\"}",
+            "ms": 2076,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "```json\n{\"order_id\": \"S7302\", \"product\": \"\", \"issue\": \"Needs delivery address updated before shipping\"}\n```",
+            "ms": 1449,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 52,
+          "device": {
+            "text": "{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Change account name and email address\"}",
+            "ms": 2182,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "```json\n{\"order_id\": \"\", \"product\": \"\", \"issue\": \"Account name change request\"}\n```",
+            "ms": 851,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 53,
+          "device": {
+            "text": "{\"order_id\": \"U9047\", \"product\": \"stoneware jug\", \"issue\": \"shows as delivered but not received\"}",
+            "ms": 864,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"order_id\": \"U9047\", \"product\": \"stoneware jug\", \"issue\": \"Item shows as delivered but has not been received.\"}",
+            "ms": 968,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "pii",
+      "mode": "ONLY_ON_DEVICE",
+      "good": 54,
+      "n": 54,
+      "lowerBound": 0.9522797621593119,
+      "deviceP50": 1849,
+      "deviceP90": 3301,
+      "cloudP50": 847,
+      "cloudP90": 1171,
+      "reasons": [
+        "54 of 54 phone answers were right (at least 95% with 95% confidence).",
+        "This step reads personal data, so it stays on the phone."
+      ],
+      "trials": [
+        {
+          "ticket": 0,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Marcus Bell\"\n    },\n    {\n      \"type\": \"address\",\n      \"value\": \"4120 Elm Ridge Dr, Plano TX\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"marcus.bell@example.com\"\n    }\n  ]\n}\n```",
+            "ms": 3426,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Marcus Bell\"}, {\"type\": \"address\", \"value\": \"4120 Elm Ridge Dr, Plano TX\"}, {\"type\": \"email\", \"value\": \"marcus.bell@example.com\"}]}",
+            "ms": 1023,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 1,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Priya Nair\"\n    },\n    {\n      \"type\": \"phone\",\n      \"value\": \"214-555-0147\"\n    }\n  ]\n}\n```",
+            "ms": 1466,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Priya Nair\"\n    },\n    {\n      \"type\": \"phone\",\n      \"value\": \"214-555-0147\"\n    }\n  ]\n}",
+            "ms": 833,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 2,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Tomás Rivera\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"tomas.rivera@example.com\"\n    }\n  ]\n}\n```",
+            "ms": 2691,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Tomás Rivera\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"tomas.rivera@example.com\"\n    }\n  ]\n}\n```",
+            "ms": 903,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 3,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"email\",\n      \"value\": \"jen.okafor@example.com\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Jennifer Okafor\"\n    }\n  ]\n}\n```",
+            "ms": 1385,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"email\", \"value\": \"jen.okafor@example.com\"}, {\"type\": \"name\", \"value\": \"Jennifer Okafor\"}]}",
+            "ms": 752,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 4,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"address\",\n      \"value\": \"88 Lakeview Ct, Frisco TX\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Sam Whitaker\"\n    },\n    {\n      \"type\": \"phone\",\n      \"value\": \"469-555-0192\"\n    }\n  ]\n}\n```",
+            "ms": 3422,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"address\", \"value\": \"88 Lakeview Ct, Frisco TX\"}, {\"type\": \"name\", \"value\": \"Sam Whitaker\"}, {\"type\": \"phone\", \"value\": \"469-555-0192\"}]}",
+            "ms": 1171,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 5,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Aisha Khan\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"aisha.khan@example.com\"\n    }\n  ]\n}\n```",
+            "ms": 1354,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Aisha Khan\"}, {\"type\": \"email\", \"value\": \"aisha.khan@example.com\"}]}",
+            "ms": 1127,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 6,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Daniel Cho\"}]}",
+            "ms": 1837,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Daniel Cho\"}]}",
+            "ms": 1044,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 7,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"email\",\n      \"value\": \"lena.fischer@example.com\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"lena.f@example.com\"\n    },\n    {\n      \"type\": \"address\",\n      \"value\": \"12 Birch Lane, McKinney TX\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Lena Fischer\"\n    }\n  ]\n}\n```",
+            "ms": 3792,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"items\": [\n    {\n      \"type\": \"email\",\n      \"value\": \"lena.fischer@example.com\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"lena.f@example.com \"\n    },\n    {\n      \"type\": \"address\",\n      \"value\": \"12 Birch Lane, McKinney TX\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Lena Fischer\"\n    }\n  ]\n}",
+            "ms": 1316,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 8,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Rosa Delgado\"\n    },\n    {\n      \"type\": \"phone\",\n      \"value\": \"972-555-0133\"\n    },\n    {\n      \"type\": \"address\",\n      \"value\": \"501 Maple Ave, Allen TX\"\n    }\n  ]\n}\n```",
+            "ms": 1924,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"address\", \"value\": \"501 Maple Ave, Allen TX\"}, {\"type\": \"name\", \"value\": \"Rosa Delgado\"}, {\"type\": \"phone\", \"value\": \"972-555-0133\"}]}",
+            "ms": 1478,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 9,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Kevin Moore\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"kevin.moore@example.com\"\n    }\n  ]\n}\n```",
+            "ms": 2740,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Kevin Moore\"}, {\"type\": \"email\", \"value\": \"kevin.moore@example.com\"}]}",
+            "ms": 769,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 10,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Mei Tanaka\"}]}",
+            "ms": 525,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Mei Tanaka\"\n    }\n  ]\n}",
+            "ms": 827,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 11,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"email\",\n      \"value\": \"omar.haddad@example.com\"\n    },\n    {\n      \"type\": \"phone\",\n      \"value\": \"214-555-0188\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Omar Haddad\"\n    }\n  ]\n}\n```",
+            "ms": 3330,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"email\", \"value\": \"omar.haddad@example.com\"}, {\"type\": \"phone\", \"value\": \"214-555-0188\"}, {\"type\": \"name\", \"value\": \"Omar Haddad\"}]}",
+            "ms": 952,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 12,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Grace Liu\"\n    },\n    {\n      \"type\": \"address\",\n      \"value\": \"7 Harbor View, Frisco TX\"\n    }\n  ]\n}\n```",
+            "ms": 1364,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"items\": [\n    {\n      \"type\": \"address\",\n      \"value\": \"7 Harbor View, Frisco TX\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Grace Liu\"\n    }\n  ]\n}",
+            "ms": 843,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 13,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Ben Adler\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"ben.adler@example.com\"\n    },\n    {\n      \"type\": \"phone\",\n      \"value\": \"469-555-0121\"\n    }\n  ]\n}\n```",
+            "ms": 3238,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Ben Adler\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"ben.adler@example.com\"\n    },\n    {\n      \"type\": \"phone\",\n      \"value\": \"469-555-0121\"\n    }\n  ]\n}",
+            "ms": 944,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 14,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Fatima Zahra\"}]}",
+            "ms": 531,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Fatima Zahra\"}]}",
+            "ms": 1241,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 15,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"address\",\n      \"value\": \"33 Cedar Point, Plano TX\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"noah.berg@example.com\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Noah Berg\"\n    }\n  ]\n}\n```",
+            "ms": 3185,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"items\": [\n    {\n      \"type\": \"address\",\n      \"value\": \"33 Cedar Point, Plano TX\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"noah.berg@example.com\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Noah Berg\"\n    }\n  ]\n}",
+            "ms": 1046,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 16,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"jordan m\"}]}",
+            "ms": 527,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"jordan m\"}]}",
+            "ms": 759,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 17,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Hannah Price\"}]}",
+            "ms": 1849,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Hannah Price\"}]}",
+            "ms": 820,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 18,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Beatriz Souza\"}]}",
+            "ms": 2016,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Beatriz Souza\"}]}",
+            "ms": 1081,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 19,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"phone\",\n      \"value\": \"(512) 555-0176\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Theo Grant\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Grant & Co.\"\n    }\n  ]\n}\n```",
+            "ms": 3301,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "```json\n{\"items\": [{\"type\": \"phone\", \"value\": \"(512) 555-0176\"}, {\"type\": \"name\", \"value\": \"Theo Grant\"}]}\n```",
+            "ms": 1265,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 20,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Ingrid Olsen\"\n    },\n    {\n      \"type\": \"address\",\n      \"value\": \"1902 Willow Bend, Prosper TX\"\n    }\n  ]\n}\n```",
+            "ms": 1357,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Ingrid Olsen\"}, {\"type\": \"address\", \"value\": \"1902 Willow Bend, Prosper TX\"}]}",
+            "ms": 701,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 21,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"email\",\n      \"value\": \"raj.patel@example.com\"\n    }\n  ]\n}\n```",
+            "ms": 2501,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"email\", \"value\": \"raj.patel@example.com\"}]}",
+            "ms": 1011,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 22,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Chloe Martin\"}]}",
+            "ms": 515,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Chloe Martin\"}]}",
+            "ms": 730,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 23,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"address\",\n      \"value\": \"77 Cypress Ln, Little Elm TX 75068\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Diego\"\n    }\n  ]\n}\n```",
+            "ms": 2737,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"address\", \"value\": \"77 Cypress Ln, Little Elm TX 75068\"}, {\"type\": \"name\", \"value\": \"Diego\"}]}",
+            "ms": 940,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 24,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"address\",\n      \"value\": \"418 Oak St\"\n    },\n    {\n      \"type\": \"address\",\n      \"value\": \"481 Oak St\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Mia Wong\"\n    },\n    {\n      \"type\": \"phone\",\n      \"value\": \"214-555-0163\"\n    }\n  ]\n}\n```",
+            "ms": 2350,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Mia Wong\"}, {\"type\": \"phone\", \"value\": \"214-555-0163\"}, {\"type\": \"address\", \"value\": \"418 Oak St\"}, {\"type\": \"address\", \"value\": \"481 Oak St\"}]}",
+            "ms": 893,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 25,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Liam O'Connor\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"liam.oconnor@example.com\"\n    }\n  ]\n}\n```",
+            "ms": 1367,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Liam O'Connor\"}, {\"type\": \"email\", \"value\": \"liam.oconnor@example.com\"}]}",
+            "ms": 919,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 26,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Arjun\"}]}",
+            "ms": 1848,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Arjun\"}]}",
+            "ms": 669,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 27,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"email\",\n      \"value\": \"arjun.k@example.com\"\n    }\n  ]\n}\n```",
+            "ms": 972,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"email\", \"value\": \"arjun.k@example.com\"}]}",
+            "ms": 738,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 28,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"email\",\n      \"value\": \"sophie.b@example.com\"\n    }\n  ]\n}\n```",
+            "ms": 2299,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"email\", \"value\": \"sophie.b@example.com\"}]}",
+            "ms": 1099,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 29,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Ella Fischer\"}]}",
+            "ms": 2059,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Ella Fischer\"}]}",
+            "ms": 727,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 30,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Pat\"}]}",
+            "ms": 521,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Pat\"}]}",
+            "ms": 815,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 31,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Nora Kim\"\n    },\n    {\n      \"type\": \"phone\",\n      \"value\": \"469.555.0139\"\n    }\n  ]\n}\n```",
+            "ms": 2767,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Nora Kim\"}, {\"type\": \"phone\", \"value\": \"469.555.0139\"}]}",
+            "ms": 878,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 32,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Élodie Tremblay\"\n    }\n  ]\n}\n```",
+            "ms": 922,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Élodie Tremblay\"\n    }\n  ]\n}",
+            "ms": 736,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 33,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Grace\"}]}",
+            "ms": 1778,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Grace\"}]}",
+            "ms": 652,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 34,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Margaret Ellis\"\n    },\n    {\n      \"type\": \"address\",\n      \"value\": \"5 Rosewood Ct, Celina TX\"\n    },\n    {\n      \"type\": \"phone\",\n      \"value\": \"945-555-0102\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"David Ellis\"\n    }\n  ]\n}\n```",
+            "ms": 3854,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Margaret Ellis\"}, {\"type\": \"address\", \"value\": \"5 Rosewood Ct, Celina TX\"}, {\"type\": \"phone\", \"value\": \"945-555-0102\"}, {\"type\": \"name\", \"value\": \"David Ellis\"}]}",
+            "ms": 736,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 35,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Femi Adeyemi\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"femi.adeyemi@example.com\"\n    }\n  ]\n}\n```",
+            "ms": 1427,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Femi Adeyemi\"}, {\"type\": \"email\", \"value\": \"femi.adeyemi@example.com\"}]}",
+            "ms": 815,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 36,
+          "device": {
+            "text": "{\"items\": []}",
+            "ms": 1657,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": []}",
+            "ms": 576,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 37,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Rachel Stein\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"rachel.stein@example.com\"\n    }\n  ]\n}\n```",
+            "ms": 2870,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Rachel Stein\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"rachel.stein@example.com\"\n    }\n  ]\n}",
+            "ms": 786,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 38,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Tom\"}]}",
+            "ms": 447,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Tom\"}]}",
+            "ms": 847,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 39,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"address\",\n      \"value\": \"2210 Meadow Glen Dr, McKinney\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Lucy Bell\"\n    }\n  ]\n}\n```",
+            "ms": 2719,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "```json\n{\"items\": [{\"type\": \"address\", \"value\": \"2210 Meadow Glen Dr, McKinney\"}, {\"type\": \"name\", \"value\": \"Lucy Bell\"}]}\n```",
+            "ms": 1068,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 40,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Ahmed Saleh\"\n    },\n    {\n      \"type\": \"phone\",\n      \"value\": \"972-555-0148\"\n    }\n  ]\n}\n```",
+            "ms": 1442,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Ahmed Saleh\"}, {\"type\": \"phone\", \"value\": \"972-555-0148\"}]}",
+            "ms": 814,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 41,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"phone\",\n      \"value\": \"+1 214 555 0177\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Yuki Sato\"\n    }\n  ]\n}\n```",
+            "ms": 2915,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"phone\", \"value\": \"+1 214 555 0177\"}, {\"type\": \"name\", \"value\": \"Yuki Sato\"}]}",
+            "ms": 936,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 42,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Carmen Ruiz\"}]}",
+            "ms": 520,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Carmen Ruiz\"}]}",
+            "ms": 890,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 43,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Owen Price\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"owen.price@example.com\"\n    }\n  ]\n}\n```",
+            "ms": 2752,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Owen Price\"}, {\"type\": \"email\", \"value\": \"owen.price@example.com\"}]}",
+            "ms": 957,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 44,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Ivy Chen\"\n    },\n    {\n      \"type\": \"address\",\n      \"value\": \"Apt 4B, 300 Main St, Frisco TX 75034\"\n    }\n  ]\n}\n```",
+            "ms": 1602,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"items\": [\n    {\n      \"type\": \"address\",\n      \"value\": \"Apt 4B, 300 Main St, Frisco TX 75034\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Ivy Chen\"\n    }\n  ]\n}",
+            "ms": 952,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 45,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Ben\"}]}",
+            "ms": 1786,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Ben\"}]}",
+            "ms": 1173,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 46,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Sana Mirza\"}]}",
+            "ms": 1879,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Sana Mirza\"\n    }\n  ]\n}\n```",
+            "ms": 828,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 47,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"M. JOHNSON\"\n    }\n  ]\n}\n```",
+            "ms": 909,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"M. JOHNSON\"}]}",
+            "ms": 704,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 48,
+          "device": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Hannah Ortiz\"}]}",
+            "ms": 1854,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Hannah Ortiz\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Hannah\"\n    }\n  ]\n}",
+            "ms": 852,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 49,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"phone\",\n      \"value\": \"+44 20 7946 0321\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Rachel Moore\"\n    }\n  ]\n}\n```",
+            "ms": 3065,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"phone\", \"value\": \"+44 20 7946 0321\"}, {\"type\": \"name\", \"value\": \"Rachel Moore\"}]}",
+            "ms": 816,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 50,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"phone\",\n      \"value\": \"07700 900482\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Oliver Hughes\"\n    }\n  ]\n}\n```",
+            "ms": 1431,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"phone\", \"value\": \"07700 900482\"}, {\"type\": \"name\", \"value\": \"Oliver Hughes\"}]}",
+            "ms": 732,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 51,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"address\",\n      \"value\": \"Unit 12, 4505 Preston Rd, Plano TX 75093\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Nadia Ruiz\"\n    }\n  ]\n}\n```",
+            "ms": 2951,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"address\", \"value\": \"Unit 12, 4505 Preston Rd, Plano TX 75093\"}, {\"type\": \"name\", \"value\": \"Nadia Ruiz\"}]}",
+            "ms": 1003,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 52,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"name\",\n      \"value\": \"Kevin Park\"\n    },\n    {\n      \"type\": \"email\",\n      \"value\": \"kevin.park@example.com\"\n    }\n  ]\n}\n```",
+            "ms": 1354,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"name\", \"value\": \"Kevin Park\"}, {\"type\": \"name\", \"value\": \"Mr. Park\"}, {\"type\": \"email\", \"value\": \"kevin.park@example.com\"}]}",
+            "ms": 789,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        },
+        {
+          "ticket": 53,
+          "device": {
+            "text": "```json\n{\n  \"items\": [\n    {\n      \"type\": \"phone\",\n      \"value\": \"0491 570 156\"\n    },\n    {\n      \"type\": \"name\",\n      \"value\": \"Sophie Taylor\"\n    }\n  ]\n}\n```",
+            "ms": 2817,
+            "onDevice": true,
+            "good": true,
+            "error": null
+          },
+          "cloud": {
+            "text": "{\"items\": [{\"type\": \"phone\", \"value\": \"0491 570 156\"}, {\"type\": \"name\", \"value\": \"Sophie Taylor\"}]}",
+            "ms": 612,
+            "onDevice": false,
+            "good": true,
+            "error": null
+          }
+        }
+      ]
+    }
+  ]
+}

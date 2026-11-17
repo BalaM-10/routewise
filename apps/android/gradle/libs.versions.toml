@@ -1,0 +1,32 @@
+[versions]
+agp = "9.5.0"
+kotlin = "2.3.0"
+googleServices = "4.4.4"
+composeBom = "2025.10.00"
+activityCompose = "1.11.0"
+coreKtx = "1.17.0"
+firebaseBom = "34.10.0"
+# Hybrid inference on Android is pinned outside the BoM while it is experimental.
+firebaseAi = "18.2.0"
+firebaseAiOnDevice = "16.0.0-beta08"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+compose-ui = { group = "androidx.compose.ui", name = "ui" }
+compose-foundation = { group = "androidx.compose.foundation", name = "foundation" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+firebase-ai = { group = "com.google.firebase", name = "firebase-ai", version.ref = "firebaseAi" }
+firebase-ai-ondevice = { group = "com.google.firebase", name = "firebase-ai-ondevice", version.ref = "firebaseAiOnDevice" }
+firebase-config = { group = "com.google.firebase", name = "firebase-config" }
+firebase-appcheck-debug = { group = "com.google.firebase", name = "firebase-appcheck-debug" }
+firebase-appcheck-playintegrity = { group = "com.google.firebase", name = "firebase-appcheck-playintegrity" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+google-services = { id = "com.google.gms.google-services", version.ref = "googleServices" }

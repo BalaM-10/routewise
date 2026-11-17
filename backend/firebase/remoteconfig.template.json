@@ -1,0 +1,18 @@
+{
+  "parameters": {
+    "routewise_policy": {
+      "defaultValue": {
+        "value": ""
+      },
+      "description": "Web routes produced by a Routewise calibration (Routes page > Remote Config value). Empty means built-in defaults.",
+      "valueType": "STRING"
+    },
+    "routewise_policy_android": {
+      "defaultValue": {
+        "value": ""
+      },
+      "description": "Android routes produced by calibration on a phone (Calibrate tab > Share these routes). Empty means the web routes, then built-in defaults.",
+      "valueType": "STRING"
+    }
+  }
+}

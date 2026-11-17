@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Routewise junction: one line in, splitting to this device (upper) and the cloud (lower). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M34,54h16"
+        android:strokeWidth="5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M50,54c8,0 9,-10 18,-10h6"
+        android:strokeWidth="5"
+        android:strokeColor="#6FD1B6"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M50,54c8,0 9,10 18,10h6"
+        android:strokeWidth="5"
+        android:strokeColor="#93B4EF"
+        android:strokeLineCap="round" />
+</vector>
